@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#0000</color>
+    <color name="background_day">#fff</color>
+    <color name="background_selected">#fff</color>
+    <color name="background_ranged">#800780ED</color>
+    <color name="background_disabled">#0000</color>
+    <color name="text_day">#000</color>
+    <color name="text_selected">#fff</color>
+    <color name="text_today">#CCCCCC</color>
+    <color name="text_special">#CCCCCC</color>
+    <color name="text_festival">#f00</color>
+    <!--每个周六、周日的字体颜色-->
+    <color name="text_weekend">#0780ED</color>
+    <color name="text_disabled">#ccc</color>
+
+    <integer name="year_from">2018</integer>
+    <integer name="month_from">7</integer>
+    <integer name="special_count">8</integer>
+    <integer name="max_double_selected_count">90</integer>
+
+    <!--预售-->
+    <string name="special"></string>
+    <string name="today">今天</string>
+    <string name="format_month">%1$d年%2$d月</string>
+    <string name="format_date">%1$04d-%2$02d-%3$02d</string>
+    <string name="key_festival">festival</string>
+
+    <eat-comment/>
+
+    <color name="background_calendar">#fff</color>
+    <!--日，一，二三四五六 背景的颜色-->
+    <color name="background_week">#FAFAFA</color>
+    <!--2018年7月背景颜色-->
+    <color name="background_month">#fff</color>
+
+    <!--分割线颜色和高度-->
+    <dimen name="height_divider">0dp</dimen>
+    <color name="background_divider">#D8D8D8</color>
+
+    <!--日，一，二三四五六 的颜色-->
+    <color name="text_week">#8E8E8E</color>
+    <dimen name="height_week">26dp</dimen>
+    <!--2018年7月颜色-->
+    <color name="text_month">#333333</color>
+    <dimen name="height_month">35dp</dimen>
+
+
+    <dimen name="height_day">52dp</dimen>
+
+    <dimen name="height_placeholder">64dp</dimen>
+    <dimen name="margin_top_calendar">29dp</dimen>
+    <dimen name="text_size_week">11sp</dimen>
+    <dimen name="text_size_month">14sp</dimen>
+    <dimen name="text_size_day">14sp</dimen>
+    <dimen name="text_size_special">10sp</dimen>
+
+    <string name="sunday">日</string>
+    <string name="monday">一</string>
+    <string name="tuesday">二</string>
+    <string name="wednesday">三</string>
+    <string name="thursday">四</string>
+    <string name="friday">五</string>
+    <string name="saturday">六</string>
+
+    <style name="WeekTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_week</item>
+        <item name="android:textSize">@dimen/text_size_week</item>
+    </style>
+</resources>
