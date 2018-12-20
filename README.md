@@ -19,7 +19,7 @@ allprojects {
 
 ```Java
 dependencies {
-   implementation 'com.github.liujianguangnice:FNCalendar:1.0.1'
+   implementation 'com.github.liujianguangnice:FNCalendars:1.0.1'
 }
 ```
 
